@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>string interpolation</title>
+  </head>
+  <body>
+      <script>
+            var name = ""
+            var surname=""
+            var age=0
+            const data=`
+            age:${age=3} 
+            name:${name="YUNUS EMRE ÇIRACI"} 
+            surname:${surname="ÇIRACI"} `
+            console.log(data)
+            var s1,s2,s3;
+            const data2=`
+            operation=${s1=7}+${s2=3}-${s3=5}
+            result:${s1+s2-s3} 
+            operation:${s1=50}+${s2=20} 
+            sonuç:${s1+s2} `
+            console.log(data2)
+      </script>
+  </body>
+</html>
